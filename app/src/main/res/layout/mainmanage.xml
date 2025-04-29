@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainmanagelayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="25dp"
+    android:columnCount="3"
+    android:rowCount="4">
+
+    <ImageButton
+        android:id="@+id/editimage"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_row="0"
+        android:layout_rowSpan="3"
+        android:layout_column="0"
+        android:layout_gravity="fill"
+        android:scaleType="fitCenter"
+        android:src="@drawable/curry_rice"></ImageButton>
+    <TextView
+        android:id="@+id/menuId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="0"
+        android:layout_column="2"
+        android:layout_gravity="fill"
+        android:text="0"></TextView>
+    <EditText
+        android:id="@+id/editname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="0"
+        android:layout_column="1"
+        android:layout_gravity="fill"
+        android:hint="메뉴이름"></EditText>
+
+    <EditText
+        android:id="@+id/editinfo"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_row="1"
+        android:layout_column="1"
+        android:layout_columnSpan="2"
+        android:layout_gravity="fill"
+        android:hint="메뉴설명"></EditText>
+
+    <EditText
+        android:id="@+id/editprice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="2"
+        android:layout_column="2"
+        android:layout_gravity="fill_horizontal"
+        android:hint="가격"></EditText>
+    =
+    <Button
+        android:id="@+id/editMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="3"
+        android:layout_column="1"
+        android:layout_gravity="right"
+        android:text="수정" />
+    <Button
+        android:id="@+id/deleteMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="3"
+        android:layout_column="2"
+        android:text="삭제" />
+
+</GridLayout>

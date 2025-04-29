@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MainMenuLayout">
+        <attr name="menuimage" format="reference|string" />
+        <attr name="menuname" format="reference|string" />
+        <attr name="menuinfo" format="reference|string" />
+        <attr name="menuprice" format="reference|integer" />
+    </declare-styleable>
+    <declare-styleable name="SubMenuLayout">
+        <attr name="subimage" format="reference|string" />
+        <attr name="subname" format="reference|string" />
+        <attr name="subprice" format="reference|integer" />
+    </declare-styleable>
+    <declare-styleable name="MainManageLayout">
+        <attr name="editimage" format="reference|string" />
+        <attr name="editname" format="reference|string" />
+        <attr name="editinfo" format="reference|string" />
+        <attr name="editprice" format="reference|integer" />
+    </declare-styleable>
+    <!--
+    <declare-styleable name="SubManageLayout">
+        <attr name="editimage" format="reference|string" />
+        <attr name="editname" format="reference|string" />
+        <attr name="editinfo" format="reference|string" />
+        <attr name="editprice" format="reference|integer" />
+    </declare-styleable>
+    -->
+</resources>
